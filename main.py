@@ -333,5 +333,5 @@ async def main():
   
       pygame.display.flip()
       await asyncio.sleep(0)
-      pygame.quit()
+
 asyncio.run(main())
