@@ -332,6 +332,7 @@ async def main():
       screen.blit(score_text, (20, 50))
   
       pygame.display.flip()
+      pygame.quit
       await asyncio.sleep(0)
 
 asyncio.run(main())
